@@ -1,0 +1,9 @@
+name: arcgis-binder-env
+channels:
+  - esri
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - arcgis=2.4.0
+  - arcgis-mapping
